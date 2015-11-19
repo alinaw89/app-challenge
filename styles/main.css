@@ -1,8 +1,24 @@
-.container {
-  width: 620px;
-  margin-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+.time{
+  margin-top:-10px;
+  float:left;
+  text-align:right;
+  height:720px;
+  line-height:28px;
+  margin-left:325px;
+  font-size: 14px;
+  font-weight: bold;
+  color:#989898;
+}
+.calendar {
   height: 720px;
-  background-color: #ECECEC;
+  width: 620px;
+  background-color:#ECECEC;
+  margin: 0 auto;
+  margin-top:20px;
+  padding: 0 10px;
+}
+
+span {
+  font-size:10px;
+  font-style:normal;
 }
