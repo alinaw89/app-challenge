@@ -16,8 +16,13 @@
   margin: 0 auto;
   margin-top:20px;
   padding: 0 10px;
+  position: relative;
 }
-
+.calendar div {
+  border-left: 6px solid #4A6DA8;
+  background-color: green;
+  position: absolute;
+}
 span {
   font-size:10px;
   font-style:normal;

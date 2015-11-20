@@ -43,10 +43,26 @@
     </div>
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <script src="bower_components/jquery-file-upload/js/jquery.fileupload.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/challenge.js" type="text/javascript" ></script>
   </body>
 
 </html>
+
+<!-- for each event does this overlap with other events
+
+the events are always sorted by the start time
+
+start at event 1, loop inside and look at every other event until the start time is past the end time
+
+keeping track of bumping it over
+> you got to calculate the x position
+> the code he gave me all the width is calculated
+
+the part of the logic thats not done yet
+
+> four events that overlap: you want the event that starts earlier to be to the left, and the one to the right
+> you need to keep track of shifting it over
+> hot to sort left to right
+
+>for each and see absolut positioning
+ -->
